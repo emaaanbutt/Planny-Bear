@@ -1,0 +1,150 @@
+/* #ending-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+#final-progress{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn{
+    height: 4rem;
+    width: 15rem;
+    border: 2px solid white;
+    left: -4%;
+}
+
+.btn h2{
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    font-family: "Sigmar", sans-serif;
+    font-style: normal;
+    font-weight: 50;
+    padding-bottom: 0.6rem;
+
+} */
+
+#ending-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+
+#title h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-family: "Sigmar", sans-serif;
+}
+
+#main-image {
+    width: 80%;
+    max-width: 350px;
+    margin-left: 12%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#main-image img {
+    width: 100%;
+    height: auto;
+    /* display: block; */
+}
+
+#final-progress {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.btn {
+    height: 4rem;
+    width: 15rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 24%;
+    transition: 0.3s ease-in-out;
+}
+
+.btn h2 {
+    font-size: 2rem;
+    margin: 0;
+    font-family: "Sigmar", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    color: #582f0e;
+    background-color: white;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #title h1 {
+        font-size: 3rem;
+    }
+
+    #main-image {
+        width: 70%;
+    }
+
+    #final-progress {
+        font-size: 1.8rem;
+    }
+
+    .btn {
+        height: 3.5rem;
+        width: 12rem;
+    }
+
+    .btn h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #title h1 {
+        font-size: 2.5rem;
+    }
+
+    #main-image {
+        width: 95%;
+    }
+
+    #final-progress {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        height: 3rem;
+        width: 10rem;
+        margin-left: 20%;
+    }
+
+    .btn h2 {
+        font-size: 1.3rem;
+    }
+}

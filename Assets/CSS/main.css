@@ -1,0 +1,149 @@
+body {
+    background-color: #582f0e;
+    color: blaxk;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+#main-page {
+    width: 100%;
+    max-width: 1200px;
+}
+
+#date-and-day {
+    width: 16rem;
+    height: 18rem;
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+#circle {
+    height: 5rem;
+    width: 5rem;
+    background-color: #582f0e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    width: 100%;
+    max-width: 50rem;
+    margin: auto;
+}
+
+#progress-container {
+    width: 100%;
+    max-width: 40rem;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+}
+
+#progress-bar {
+    width: 100%;
+    height: 2rem;
+    background-color: gray;
+    border-radius: 5rem;
+    position: relative;
+}
+
+#progress {
+    height: 100%;
+    width: 40%;
+    background-color: palevioletred;
+    border-radius: 5rem;
+}
+
+#input-box {
+    width: calc(100% - 5rem);
+    max-width: 35rem;
+    height: 4rem;
+    border-radius: 15rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.btn {
+    height: 3rem;
+    width: 4rem;
+    margin-left: 2rem;
+    margin-bottom: 0.6rem;
+}
+
+#write-tasks {
+    width: 100%;
+    max-width: 60rem;
+    background-color: white ;
+    border-radius: 2rem;
+    margin: 2rem auto;
+    padding: 0.3rem;
+}
+
+.border{
+    border-radius: 10rem;
+}
+
+.butn {
+    width: 15rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.butn:hover {
+    color: #582f0e;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    #date-and-day {
+        width: 12rem;
+        height: 14rem;
+        margin: 1rem auto;
+    }
+    
+    #container, #progress-container, #write-tasks {
+        width: 90%;
+    }
+    
+    #progress-bar {
+        height: 1.5rem;
+    }
+    
+    #input-box {
+        width: 80%;
+    }
+    
+    .btn {
+        width: 3rem;
+        height: 3rem;
+        margin-left: 1rem;
+    }
+}
