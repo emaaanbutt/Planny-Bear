@@ -36,52 +36,82 @@
                         </div>
                     </div>
                </div>
-                <input id="input-box" type="text" placeholder="Write your task here...">
-                <button type="button" class="btn btn-dark"><h2>+</h2></button>
+                <input id="input-box" type="text" placeholder="Write your task here..." value="">
+                <button type="button" class="btn btn-dark" onclick="addToTask()"><h2>+</h2></button>
             </div>
             
 
            <div id="write-tasks">
             <ul class="list-group list-group-flush border">
-                <button type="button" class="list-group-item list-group-item-action">
+                <button type="button" id="one" onclick="crossTask(id)" class="list-group-item list-group-item-action">
                     <i class="fa-duotone fa-solid fa-arrows-to-dot" style="--fa-primary-color: #682c27; --fa-secondary-color: #0c0d0d;"></i>
+                    <div class="content empty">
+
+                    </div>
                 </button>
-                <button type="button" class="list-group-item list-group-item-action">
+                <button type="button" id="two" onclick="crossTask(id)" class="list-group-item list-group-item-action">
                     <i class="fa-duotone fa-solid fa-arrows-to-dot" style="--fa-primary-color: #682c27; --fa-secondary-color: #0c0d0d;"></i>
+                    <div class="content empty">
+                        
+                    </div>
                 </button>
-                <button type="button" class="list-group-item list-group-item-action">
+                <button type="button" id="three" onclick="crossTask(id)" class="list-group-item list-group-item-action">
                     <i class="fa-duotone fa-solid fa-arrows-to-dot" style="--fa-primary-color: #682c27; --fa-secondary-color: #0c0d0d;"></i>
+                    <div class="content empty">
+                        
+                    </div>
                 </button>
-                <button type="button" class="list-group-item list-group-item-action">
+                <button type="button" id="four" onclick="crossTask(id)" class="list-group-item list-group-item-action">
                     <i class="fa-duotone fa-solid fa-arrows-to-dot" style="--fa-primary-color: #682c27; --fa-secondary-color: #0c0d0d;"></i>
+                    <div class="content empty">
+                        
+                    </div>
                 </button>
-                <button type="button" class="list-group-item list-group-item-action">
+                <button type="button" id="five" onclick="crossTask(id)" class="list-group-item list-group-item-action">
                     <i class="fa-duotone fa-solid fa-arrows-to-dot" style="--fa-primary-color: #682c27; --fa-secondary-color: #0c0d0d;"></i>
+                    <div class="content empty">
+                        
+                    </div>
                 </button>
-                <button type="button" class="list-group-item list-group-item-action">
+                <button type="button" id="six" onclick="crossTask(id)" class="list-group-item list-group-item-action">
                     <i class="fa-duotone fa-solid fa-arrows-to-dot" style="--fa-primary-color: #682c27; --fa-secondary-color: #0c0d0d;"></i>
+                    <div class="content empty">
+                        
+                    </div>
                 </button>
-                <button type="button" class="list-group-item list-group-item-action">
+                <button type="button" id="seven" onclick="crossTask(id)" class="list-group-item list-group-item-action">
                     <i class="fa-duotone fa-solid fa-arrows-to-dot" style="--fa-primary-color: #682c27; --fa-secondary-color: #0c0d0d;"></i>
+                    <div class="content empty">
+                        
+                    </div>
                 </button>
-                <button type="button" class="list-group-item list-group-item-action">
+                <button type="button" id="eight" onclick="crossTask(id)" class="list-group-item list-group-item-action">
                     <i class="fa-duotone fa-solid fa-arrows-to-dot" style="--fa-primary-color: #682c27; --fa-secondary-color: #0c0d0d;"></i>
+                    <div class="content empty">
+                        
+                    </div>
                 </button>
-                <button type="button" class="list-group-item list-group-item-action">
+                <button type="button" id="nine" onclick="crossTask(id)" class="list-group-item list-group-item-action">
                     <i class="fa-duotone fa-solid fa-arrows-to-dot" style="--fa-primary-color: #682c27; --fa-secondary-color: #0c0d0d;"></i>
+                    <div class="content empty">
+                        
+                    </div>
                 </button>
-                <button type="button" class="list-group-item list-group-item-action">
+                <button type="button" id="ten" onclick="crossTask(id)" class="list-group-item list-group-item-action">
                     <i class="fa-duotone fa-solid fa-arrows-to-dot" style="--fa-primary-color: #682c27; --fa-secondary-color: #0c0d0d;"></i>
+                    <div class="content empty">
+                        
+                    </div>
                 </button>
             </div>
             <a href="./end.html">
-                <div class="butn">
+                <div class="butn" onclick="storeProgress()">
                     <h2>FINISH DAY</h2>
                 </div>
-            </a>
-                
-             
+            </a> 
         </div>
     </div>
+
+    <script src="../Assets/script/main.js" charset="UTF-8"></script>
 </body>
 </html>

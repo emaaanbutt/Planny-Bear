@@ -80,7 +80,7 @@ body {
 
 #progress {
     height: 100%;
-    width: 40%;
+    width: 0%;
     background-color: palevioletred;
     border-radius: 5rem;
 }
@@ -93,6 +93,7 @@ body {
     padding-left: 1rem;
     font-size: 1.5rem;
     margin-top: 1rem;
+    font-weight: normal;
 }
 
 .btn {
@@ -100,6 +101,7 @@ body {
     width: 4rem;
     margin-left: 1rem;
     margin-bottom: 0.6rem;
+    transition: 0.3s ease-in-out;
 }
 
 #write-tasks {
@@ -138,6 +140,21 @@ a{
     background-color: white;
 }
 
+i{
+    padding-right: 5px;
+}
+
+i, .content{
+    display: inline-flex;
+    flex-wrap: wrap;
+    color: black !important;
+    font-size: 23px;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
 @media (max-width: 768px) {
     #date-and-day {
         width: 12rem;
@@ -172,6 +189,9 @@ a{
         height: 3rem;
         margin-left: 1rem;
     }
+    .content{
+        font-size: 20px;
+    }
 }
 
 
@@ -188,6 +208,7 @@ a{
     #write-tasks{
         margin: auto;
     }
+
 }
 
 @media (max-width: 950px){
