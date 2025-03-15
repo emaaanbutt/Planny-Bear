@@ -1,6 +1,6 @@
 body {
     background-color: #582f0e;
-    color: blaxk;
+    color: black;
     font-family: "Acme", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -21,11 +21,22 @@ body {
     background-color: white;
     border-radius: 2rem;
     display: flex;
+    gap: 2rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 2rem auto;
+    margin: 7%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+#date-and-day h2{
+    font-size: 40px;
+}
+
+#date-and-day h3{
+    font-size: 30px;
 }
 
 #circle {
@@ -39,19 +50,23 @@ body {
 }
 
 #container {
-    width: 100%;
-    max-width: 50rem;
-    margin: auto;
+    width: 50%;
+    /* max-width: 50rem; */
+    justify-self: flex-end;
+    top: 1rem;
+    /* margin: auto; */
 }
 
 #progress-container {
     width: 100%;
     max-width: 40rem;
+    height: 8rem;
     background-color: white;
     border-radius: 2rem;
     padding: 1rem;
     text-align: center;
-    margin: auto;
+    margin-bottom: 3rem;
+    /* margin: auto; */
 }
 
 #progress-bar {
@@ -60,6 +75,7 @@ body {
     background-color: gray;
     border-radius: 5rem;
     position: relative;
+    bottom: -1rem;
 }
 
 #progress {
@@ -70,7 +86,7 @@ body {
 }
 
 #input-box {
-    width: calc(100% - 5rem);
+    width: calc(100% - 7rem);
     max-width: 35rem;
     height: 4rem;
     border-radius: 15rem;
@@ -82,7 +98,7 @@ body {
 .btn {
     height: 3rem;
     width: 4rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-bottom: 0.6rem;
 }
 
@@ -91,7 +107,7 @@ body {
     max-width: 60rem;
     background-color: white ;
     border-radius: 2rem;
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     padding: 0.3rem;
 }
 
@@ -128,9 +144,19 @@ a{
         height: 14rem;
         margin: 1rem auto;
     }
+
+    #date-and-day h2{
+        font-size: 30px;
+    }
+    
+    #date-and-day h3{
+        font-size: 25px;
+    }
+    
     
     #container, #progress-container, #write-tasks {
         width: 90%;
+        margin: auto;
     }
     
     #progress-bar {
@@ -147,3 +173,28 @@ a{
         margin-left: 1rem;
     }
 }
+
+
+@media (min-width: 768px){
+
+    #container{
+        position: absolute;
+        top: 4rem;
+        right: 10%;
+        margin: auto;
+        
+    }
+
+    #write-tasks{
+        margin: auto;
+    }
+}
+
+@media (max-width: 950px){
+
+    #container{
+        right: 4%;
+
+    }
+}
+
