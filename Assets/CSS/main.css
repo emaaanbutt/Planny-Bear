@@ -166,6 +166,7 @@ i, .content{
     text-decoration: line-through;
 }
 
+
 @media (max-width: 768px) {
     #date-and-day {
         width: 12rem;
@@ -183,7 +184,7 @@ i, .content{
     
     
     #container, #progress-container, #write-tasks {
-        width: 90%;
+        width: 95%;
         margin: auto;
     }
     
@@ -206,6 +207,26 @@ i, .content{
     }
 }
 
+@media (max-width: 500px)
+{
+    .btn{
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width: 350px)
+{
+    #input-box {
+        width: 100%;
+    }
+
+    .btn{
+        margin: 5%;
+        margin-left: 45%;
+    }
+}
+
+
 
 @media (min-width: 768px){
 
@@ -216,7 +237,6 @@ i, .content{
         margin: auto;
         
     }
-
 
     #write-tasks{
         margin: auto;
