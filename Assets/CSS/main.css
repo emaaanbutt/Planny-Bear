@@ -26,18 +26,19 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 7%;
+    margin: 9%;
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
 
-#date-and-day h2{
+#day{
     font-size: 40px;
 }
 
-#date-and-day h3{
+#month{
     font-size: 30px;
 }
+
 
 #circle {
     height: 5rem;
@@ -49,12 +50,15 @@ body {
     justify-content: center;
 }
 
+#date{
+    color: white;
+    font-size: 45px;
+}
+
 #container {
     width: 50%;
-    /* max-width: 50rem; */
     justify-self: flex-end;
     top: 1rem;
-    /* margin: auto; */
 }
 
 #progress-container {
@@ -66,7 +70,6 @@ body {
     padding: 1rem;
     text-align: center;
     margin-bottom: 3rem;
-    /* margin: auto; */
 }
 
 #progress-bar {
@@ -93,7 +96,7 @@ body {
     padding-left: 1rem;
     font-size: 1.5rem;
     margin-top: 1rem;
-    font-weight: normal;
+    font-family: sans-serif;
 }
 
 .btn {
@@ -109,7 +112,6 @@ body {
     max-width: 60rem;
     background-color: white ;
     border-radius: 2rem;
-    /* margin: 2rem auto; */
     padding: 0.3rem;
 }
 
@@ -127,6 +129,14 @@ body {
     margin: 2rem auto;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+#back-btn{
+    margin: auto;
+    width: 100px;
+    display: flex;
+    align-items: flex-end;
     justify-content: center;
 }
 
@@ -148,7 +158,8 @@ i, .content{
     display: inline-flex;
     flex-wrap: wrap;
     color: black !important;
-    font-size: 23px;
+    font-size: 21px;
+    font-family: sans-serif;
 }
 
 .strike{
@@ -189,6 +200,7 @@ i, .content{
         height: 3rem;
         margin-left: 1rem;
     }
+
     .content{
         font-size: 20px;
     }
@@ -200,22 +212,27 @@ i, .content{
     #container{
         position: absolute;
         top: 4rem;
-        right: 10%;
+        right: 8%;
         margin: auto;
         
     }
 
+
     #write-tasks{
         margin: auto;
     }
+ }
 
-}
 
-@media (max-width: 950px){
+@media (max-width: 950px) and (min-width: 768px){
 
     #container{
         right: 4%;
 
+    }
+
+    #date-and-day{
+        margin-left: 5%;
     }
 }
 

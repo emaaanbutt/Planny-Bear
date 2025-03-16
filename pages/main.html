@@ -20,11 +20,11 @@
     <div id="main-page">
         <div id="grid-container">
             <div id="date-and-day">
-                <h2>Wednesday</h2>
+                <h2 id="day"></h2>
                 <div id="circle">
-                    <h3 style="color: white;">5</h3>
+                    <h3 id="date"></h3>
                 </div>
-                <h3>March</h3>
+                <h3 id="month"></h3>
             </div>
 
             <div id="container">
@@ -104,12 +104,20 @@
                     </div>
                 </button>
             </div>
-            <a href="./end.html">
-                <div class="butn" onclick="storeProgress()">
-                    <h2>FINISH DAY</h2>
-                </div>
-            </a> 
-        </div>
+            <div>
+                <a href="./end.html">
+                    <div class="butn" onclick="storeProgress()">
+                        <h2>FINISH DAY</h2>
+                    </div>
+                </a> 
+    
+                <a href="../index.html">
+                    <div id="back-btn" class="butn">
+                        <h2>Back</h2>
+                    </div>
+                </a>
+            </div>
+            </div>
     </div>
 
     <script src="../Assets/script/main.js" charset="UTF-8"></script>

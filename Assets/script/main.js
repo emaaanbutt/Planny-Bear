@@ -76,10 +76,22 @@ function calculateProgress(){
 function storeProgress()
 {
     let percentage = document.querySelector("#progress").style.width;
-    // let percentage = "50%";
     sessionStorage.setItem("progress-percentage", percentage);
-    // window.location.href = "end.html";
 }
+
+function getLocalDate() {
+    let dateTime = new Date();
+    let day = dateTime.toLocaleString('en-US', { weekday: 'long' });
+    let month = dateTime.toLocaleString('en-US', { month: 'long' });
+    let date = dateTime.getDate();
+
+    document.getElementById("day").textContent = day;
+    document.getElementById("date").textContent = date;
+    document.getElementById("month").textContent = month;
+}
+
+document.addEventListener("DOMContentLoaded", getLocalDate);
+
 
 
 
