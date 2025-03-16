@@ -37,9 +37,9 @@ JavaScript (ES6) for interactivity
 
 📷 Preview
 
-![Screenshot 2025-03-16 160708](https://github.com/user-attachments/assets/e3d95752-5884-4ea3-b62b-62f81f444a02)
-![Screenshot 2025-03-16 160642](https://github.com/user-attachments/assets/1a212f3d-c769-45f5-80d1-b0b402c00fb2)
-![Screenshot 2025-03-16 160657](https://github.com/user-attachments/assets/af208cc5-1c20-4eec-8cd0-2995d0c824cb)
+<img src="Assets/Images/preview/planny-bear-preview1.png" alt="Planny Bear Screenshot" height="400" width="400">
+<img src="Assets/Images/preview/planny-bear-preview2.png" alt="Planny Bear Screenshot" height="400" width="400">
+<img src="Assets/Images/preview/planny-bear-preview3.png" alt="Planny Bear Screenshot" height="400" width="400">
 
 📜 License
 
